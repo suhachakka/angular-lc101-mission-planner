@@ -4,6 +4,7 @@
   <li>Raja Chari</li>
   <li>Jasmin Moghbeli</li>
 </ul> -->
+<!-- {{ memeber.name}} + html tag==> expression or interpolation means the data flows between view and component mix or stick inside the html -->
 <ul>
   <li *ngFor = "let member of crew">{{member.name}}   <span *ngIf = "member.firstMission">-1st</span>
   </li>
